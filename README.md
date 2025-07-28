@@ -1,4 +1,19 @@
-# Ashie
+# Ashie – Experimental version of Lissie using the (Ash Framework)[https://ash-hq.org]
+
+## Current status
+
+- Created a new web app with the Igniter code generator:
+
+```mix igniter.new ashie --install ash,ash_postgres,ash_phoenix --with phx.new```
+
+- Ran the Ash code generator to create a new Student resource:
+
+```mix ash.gen.resource Ashie.Students.Student --extend postgres --attribute student_id:string:primary_key --attribute firstname:string:required --attribute lastname:string:required --timestamps```
+
+- Edited the generated code to add constraints and to change the datatype to `citext` (PostgresSQL) for all attributes
+
+
+## Check your setup by running the app
 
 To start your Phoenix server:
 
