@@ -1,4 +1,4 @@
-# Ashie – Experimental version of Lissie using the (Ash Framework)[https://ash-hq.org]
+# Ashie – Experimental version of Lissie using the [Ash Framework](https://ash-hq.org)
 
 ## Current status
 
@@ -12,8 +12,9 @@
 
 - Edited the generated code to add constraints and to change the datatype to `citext` (PostgresSQL) for all attributes
 
-
 ## Check your setup by running the app
+
+Run `mix compile` and `mix test`.
 
 To start your Phoenix server:
 
